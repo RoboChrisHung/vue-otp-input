@@ -137,8 +137,13 @@ export default {
       switch (event.keyCode) {
         case BACKSPACE:
           event.preventDefault();
-          this.changeCodeAtFocus('');
-          this.focusPrevInput();
+          const currentOtp = this.otp[this.activeInput]
+          if (currentOtp === '' || typeof currentOtp === 'undefined') {
+            this.focusPrevInput();
+            this.changeCodeAtFocus('');
+          } else {
+            this.changeCodeAtFocus('');
+          }
           break;
         case DELETE:
           event.preventDefault();
