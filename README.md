@@ -2,22 +2,22 @@
 
 > A fully customizable, OTP(one-time password) input component built with Vue 2.x.
 
-![Gifphy](https://media.giphy.com/media/W4RTzsjgQF447EfNPX/giphy.gif)
+![Gifphy](https://media.giphy.com/media/mQWTpCRcvGNHwJg106/giphy.gif)
 
-[Live Demo](https://zlx025mxpp.codesandbox.io/)
+[Live Demo](https://codesandbox.io/embed/vue-otp-forked-ri53lm?fontsize=14&hidenavigation=1&theme=dark&view=preview)
 
 ## Installation
 
 To install the latest stable version:
 
 ```
-npm install --save @bachdgvn/vue-otp-input
+npm install --save @iml885203/vue-otp-input
 ```
 
 Import to main.js:
 
 ```javascript
-import OtpInput from "@bachdgvn/vue-otp-input";
+import OtpInput from "@iml885203/vue-otp-input";
 
 Vue.component("v-otp-input", OtpInput);
 ```
