@@ -1,9 +1,12 @@
 {
-  "name": "@bachdgvn/vue-otp-input",
+  "name": "@iml885203/vue-otp-input",
   "version": "1.0.8",
   "description": "A fully customizable, one-time password input component for the web built with Vue 2.x.",
-  "author": "Bach Duong <bachdgvn@gmail.com>",
-  "repository": "https://github.com/bachdgvn/vue-otp-input",
+  "author": "Logan <iml885203@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iml885203/vue-otp-input.git"
+  },
   "keywords": [
     "vueotpinput",
     "vue",
@@ -41,5 +44,9 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/iml885203/vue-otp-input/issues"
+  },
+  "homepage": "https://github.com/iml885203/vue-otp-input#readme"
 }
