@@ -1,6 +1,6 @@
 <?php
 
-namespace Sukohi\LaravelJpPostalCode\Facades;
+namespace Chiehting\LaravelJpPostalCode\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Sukohi\LaravelJpPostalCode\App\Console\Commands;
+namespace Chiehting\LaravelJpPostalCode\App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Sukohi\LaravelJpPostalCode\App\JpPostalCode;
+use Chiehting\LaravelJpPostalCode\App\JpPostalCode;
 
 class ImportJpPostalCodeCommand extends Command
 {

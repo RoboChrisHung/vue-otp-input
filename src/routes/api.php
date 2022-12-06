@@ -1,3 +1,3 @@
 <?php
 
-Route::get(config('jp_postal_code.endpoint'), 'Sukohi\LaravelJpPostalCode\App\Http\Controllers\JpPostalCodeController@index');
+Route::get(config('jp_postal_code.endpoint'), 'Chiehting\LaravelJpPostalCode\App\Http\Controllers\JpPostalCodeController@index');

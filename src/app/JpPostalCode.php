@@ -1,6 +1,6 @@
 <?php
 
-namespace Sukohi\LaravelJpPostalCode\App;
+namespace Chiehting\LaravelJpPostalCode\App;
 
 use Illuminate\Database\Eloquent\Model;
 

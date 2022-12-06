@@ -1,10 +1,10 @@
 <?php
 
-namespace Sukohi\LaravelJpPostalCode\App\Http\Controllers;
+namespace Chiehting\LaravelJpPostalCode\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Sukohi\LaravelJpPostalCode\App\JpPostalCode;
+use Chiehting\LaravelJpPostalCode\App\JpPostalCode;
 
 class JpPostalCodeController extends Controller
 {

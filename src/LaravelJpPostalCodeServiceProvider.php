@@ -1,9 +1,9 @@
 <?php
 
-namespace Sukohi\LaravelJpPostalCode;
+namespace Chiehting\LaravelJpPostalCode;
 
 use Illuminate\Support\ServiceProvider;
-use Sukohi\LaravelJpPostalCode\App\Console\Commands\ImportJpPostalCodeCommand;
+use Chiehting\LaravelJpPostalCode\App\Console\Commands\ImportJpPostalCodeCommand;
 
 class LaravelJpPostalCodeServiceProvider extends ServiceProvider {
 
