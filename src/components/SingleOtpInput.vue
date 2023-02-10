@@ -78,6 +78,7 @@ export default {
   },
   methods: {
     handleOnChange() {
+      this.model = this.model.replace(/[^\d]/g,'')
       if (this.model.length > 1) {
         this.model = this.model.slice(0, 1);
       }
