@@ -14,7 +14,10 @@
     "autoload": {
         "psr-4": {
             "Chiehting\\LaravelJpPostalCode\\": "src/"
-        }
+        },
+        "classmap": [
+            "src/"
+        ]
     },
     "minimum-stability": "dev",
     "extra": {
